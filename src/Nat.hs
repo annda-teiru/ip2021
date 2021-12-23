@@ -97,11 +97,11 @@ m * n = iter 0 m n
 -- b ^ 0 = 1
 -- b ^ n = b ^ (n-1) * b
 
-infixr 8 +
-infixl 7 *
-infixl 8 ^
+-- infixr 8 +
+-- infixl 7 *
+-- infixl 8 ^
 
-(^) :: Natural -> Natural -> Natural
+-- (^) :: Natural -> Natural -> Natural
 -- b ^ 0 = 1                            -- (1)
 -- b ^ n = (b ^ (pred n)) * b  -- (2)
 
